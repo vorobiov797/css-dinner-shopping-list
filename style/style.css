@@ -1,0 +1,114 @@
+*
+{
+	padding: 0;
+
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border box;
+}
+*{transition: all 0.1s ease-in;}
+html {
+	height: 100%;
+}
+
+html,
+body
+{
+	min-height: 100%
+}
+body{
+
+font-family: Tebuchet MC”, Tebuchet, Arial, sans-serif;
+border: 25px solid #fff;
+background-color: #3B3F45;
+min-height: 100%;
+margin:0;
+}
+h1
+{
+	font-size: 36px;
+	font-weight: 600;
+	color:#EC7E7B;
+}
+h4{
+	font-size: 24px;
+	font-weight: 400;
+	color:#EC7E7B;
+}
+.header
+{
+	background:#4A4F56;
+	width:auto;
+	height:auto;
+	text-align:center;
+	font-size:24px;
+	padding:40px;
+}
+.container {
+max-width: 800px;
+
+
+  margin-left:auto;
+  margin-right:auto;
+border: 25px;
+padding:40px 20px;
+font-size: 24px;
+	font-weight: 400;
+	color:#ffffff;
+}
+small:before {
+ content:"   (";}
+ 	small:after{content: ")"}
+
+
+
+li
+{
+	background: #625e77;
+
+padding: 10px;
+	list-style-type: none;
+
+
+}
+.footer
+{
+text-align: center;
+background: #4A4F56;
+padding:20px ;
+width: 760px;
+ margin-right:auto;
+ margin-left:auto;
+
+}
+.shopp-list li:nth-child(odd)
+{
+background:#7a7593;
+}
+.shopp-list label {
+	display: block;
+}
+.shopp-list li:hover{background:#625e77;}
+.shopp-list li:active
+{
+	background: #e57f7b;
+}
+.shopp-list [type="checkbox"]
+{
+	width: 26px;
+	height: 26px;
+	vertical-align: middle;
+	position: relative;
+	top: -2px;
+	cursor: pointer;
+	margin-right: 10px;
+
+
+	}
+.shopp-list [type="checkbox"]:checked + span
+{
+	text-decoration:line-through;
+	color:#a3a1b6;
+}
+
